@@ -1,0 +1,22 @@
+# 编译产物
+adp-openai-gateway
+dist/
+*.exe
+
+# 配置文件（包含敏感信息）
+.env
+config.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+._*
+Thumbs.db
+
+# 日志
+*.log
